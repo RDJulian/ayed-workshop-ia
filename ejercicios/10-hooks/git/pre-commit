@@ -1,0 +1,6 @@
+#!/bin/sh
+# Antes de cada commit: si el proyecto no compila, el commit se rechaza.
+if ! mvn -q compile; then
+  echo "pre-commit: el proyecto no compila, commit rechazado." >&2
+  exit 1
+fi

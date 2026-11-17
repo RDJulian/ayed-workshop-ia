@@ -1,0 +1,15 @@
+target/
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Secretos: nunca se suben.
+.env
+
+# Configuración que activan los ejercicios (se copia desde ejercicios/).
+.claude/
+/AGENTS.md
+/CLAUDE.md
+/.mcp.json
+/opencode.json
